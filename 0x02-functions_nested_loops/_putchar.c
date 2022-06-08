@@ -1,11 +1,13 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * _putchar - entry point
  *
  * Return: 0
  */
-int _putchar(void)
+int _putchar(char c)
 {
+	putchar(c);
 	return (0);
 }
