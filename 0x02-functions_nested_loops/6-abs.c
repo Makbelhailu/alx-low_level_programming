@@ -5,7 +5,7 @@
 /**
  * _abs - main point
  *
- * @int: return int
+ * @c: return int
  *
  * Return: 0
  */
