@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
+#include <stdlib.h>
 
 /**
  * print_alphabet - entry point
@@ -8,12 +9,11 @@
  */
 void print_alphabet(void)
 {
-	char a;
+	char c;
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (c = 'a'; c <= 'z';c++)
 	{
-		_putchar(a);
+		putchar(c);
 	}
-	_putchar('\n');
-	return (0);
+	putchar('\n');
 }
