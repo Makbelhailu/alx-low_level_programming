@@ -11,6 +11,12 @@
  */
 int _isupper(int c)
 {
-	c = isupper(c);
-	return (c);
+	if ( c > 64 && c < 91)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
