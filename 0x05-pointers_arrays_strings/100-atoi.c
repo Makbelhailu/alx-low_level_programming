@@ -32,7 +32,7 @@ int _atoi(char *s)
 
 			if (s[i + 1] == ' ')
 			{
-				break;
+				continue;
 			}
 			if (s[i] == '-')
 			{
@@ -41,5 +41,5 @@ int _atoi(char *s)
 		}
 	}
 
-		return (number *sign);
+		return (number * sign);
 }
