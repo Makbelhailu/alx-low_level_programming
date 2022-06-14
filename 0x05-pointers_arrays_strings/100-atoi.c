@@ -4,7 +4,7 @@
 /**
  * numerical - check digits
  * @n: number
- * Return: 0 or 1
+ * Return: 0 or ,1
  */
 int numerical(unsigned int n)
 {
@@ -32,7 +32,7 @@ int _atoi(char *s)
 			if (s[i + 1] == ' ')
 				break;
 		}
-		else if (s[i] == '-')
+		if (s[i] == '-')
 			{
 				sign *= -1;
 			}
