@@ -13,7 +13,7 @@ int numerical(unsigned int n)
 
 /**
  * _atoi - convertion
- * @s - string
+ * @s: string
  * Return: the num
  */
 int _atoi(char *s)
@@ -36,7 +36,7 @@ int _atoi(char *s)
 			}
 			else if (s[i] == '-')
 			{
-				sign *= -1;
+				sign = sign *  -1;
 			}
 		}
 	}
