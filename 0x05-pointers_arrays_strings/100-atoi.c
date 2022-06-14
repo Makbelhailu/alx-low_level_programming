@@ -9,11 +9,14 @@
  */
 int _atoi(char *s)
 {
-	int x;
+	int x, i;
+
+	for (i = 0; s[i] != '\0'; i++)
+		;
 
 	x = atoi(s);
 
-	if (s == '-')
+	if (s[i] == '-')
 	{
 		x *= -1;
 	}
