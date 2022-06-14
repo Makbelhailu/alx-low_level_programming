@@ -11,9 +11,9 @@ int _atoi(char *s)
 {
 	int x, i;
 
-	for (i = 0; s[i] != '\0', i++)
+	for (i = 0; s[i] != '\0'; i++)
 		;
-	x = aito(s[i]);
+	x = atoi(a[i]);
 
 	if (s[i] == '-')
 	{
