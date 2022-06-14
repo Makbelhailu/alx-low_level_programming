@@ -30,10 +30,6 @@ int _atoi(char *s)
 		{
 			number = (s[i] - 48) + number * 10;
 
-			if (s[i + 1] == ' ')
-			{
-				continue;
-			}
 			if (s[i] == '-')
 			{
 				sign = sign *  -1;
