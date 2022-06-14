@@ -4,7 +4,7 @@
 
 /**
  * _strcpy - entry
- * @scr: source
+ * @src: source
  * @dest: destination
  * Return: dest
  */
