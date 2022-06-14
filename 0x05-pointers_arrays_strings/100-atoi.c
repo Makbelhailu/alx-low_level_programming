@@ -1,15 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
-/**
- * numerical - check digits
- * @n: number
- * Return: 0 or 1
- */
-int numerical(unsigned int n)
-{
-	return (n >= '0' &&  n <= '9');
-}
+#include <stdlib.h>
 
 /**
  * _atoi - convertion
@@ -18,24 +9,15 @@ int numerical(unsigned int n)
  */
 int _atoi(char *s)
 {
-	unsigned int number, i;
-	int sign;
+	int x, i;
 
-	sign = 1;
-	number = 0;
+	for (i = 0; s[i] != '\0', i++)
+		;
+	x = aito(s[i]);
 
-	for (i = 0; s[i] != '\0'; i++)
+	if (s[i] == '-')
 	{
-		if (numerical(s[i]))
-		{
-			number = (s[i] - 48) + number * 10;
-
-			if (s[i] == '-')
-			{
-				sign = -1;
-			}
-		}
+		x *= -1;
 	}
-
-		return (number * sign);
+		return (x);
 }
