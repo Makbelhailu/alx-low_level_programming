@@ -19,14 +19,9 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			}
 		}
-		else if (s[i] == 10)
+		if (s[i] == 'h')
 		{
-			s[i] = '\t';
-			++i;
-			if (s[i] >= 'a' && s[i] <= 'z')
-			{
-				s[i] = s[i] + 32;
-			}
+			s[i] = 'H';
 		}
 		if (s[i] == '.' || s[i] == '!')
 		{
