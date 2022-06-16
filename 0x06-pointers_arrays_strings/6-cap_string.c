@@ -20,7 +20,7 @@ char *cap_string(char *s)
 				continue;
 			}
 		}
-		if (s[i] == ' ')
+		if (s[i] == ' ' || s[i] == '\t')
 		{
 			++i;
 			if (s[i] >= 'a' && s[i] <= 'z')
