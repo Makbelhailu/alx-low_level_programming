@@ -19,7 +19,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			}
 		}
-		if (s[i] == 'h')
+		if (i == 66)
 		{
 			s[i] = 'H';
 		}
