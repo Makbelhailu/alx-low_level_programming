@@ -3,12 +3,11 @@
 
 /**
  * string_toupper - entry
- *
+ * @str: char
  * Return: str
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-	char *str;
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
