@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/**
- * main -entry 
- *
- * Rerurn: 0;
- */
 int main(void)
 {
 	int n;
