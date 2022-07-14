@@ -6,5 +6,5 @@
 void __attribute__ ((constructor)) before()
 {
 	printf("You're beat! and yet, you must allow,");
-	printf(" bore my house upon my back!\n");
+	printf("\nbore my house upon my back!\n");
 }
