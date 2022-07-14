@@ -1,9 +1,9 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef _LISTS_
+#define _LISTS_
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdarg.h>
+#include <string.h>
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
