@@ -11,7 +11,7 @@ int pop_listint(listint_t **head)
 	listint_t *last;
 	int h;
 
-	if (head == NULL)
+	if (*head == NULL)
 		return (0);
 
 	cur = *head;
