@@ -14,7 +14,7 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 
 	d = 0;
-	for (i = 0; d[i] != '\0'; i++)
+	for (i = 0; b[i] != '\0'; i++)
 		;
 	for (i--, w = 1; i >= 0; i--, w *= 2)
 	{
