@@ -2,7 +2,7 @@
 
 /**
  * get_endianness - gets 3dian
- * Rerurn: 1 if litil or 0 if big
+ * Return: 1 if litil or 0 if big
  */
 int get_endianness(void)
 {
